@@ -8,7 +8,7 @@
   "scripts": {
     "prepublish": "rm -rf lib && babel src --out-dir lib",
     "postpublish": "rm -rf lib",
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
     "ini": "^1.3.4"
