@@ -12,7 +12,7 @@ node_modules: package.json
 	@npm install
 
 test: node_modules
-	@${BIN}/babel-tape-runner test/*
+	@${BIN}/tape -r babel-register test/*
 
 validate: node_modules
 	@${BIN}/standard
