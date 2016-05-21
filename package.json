@@ -1,7 +1,7 @@
 {
   "name": "aws-read-region",
   "description": "Read the AWS region from environment variables or ~/.aws config.",
-  "repository": "git://github.com/yaws/read-region.git",
+  "repository": "git://github.com/joshrtay/aws-read-region.git",
   "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
