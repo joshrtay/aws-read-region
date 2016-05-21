@@ -12,7 +12,7 @@ node_modules: package.json
 	@npm install
 
 test: node_modules
-	@${BIN}/tape -r babel-register test/*
+	@node test/*.js
 
 validate: node_modules
 	@standard
